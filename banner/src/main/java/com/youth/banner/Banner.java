@@ -314,6 +314,9 @@ public class Banner extends FrameLayout implements OnPageChangeListener {
             case BannerConfig.CIRCLE_INDICATOR_TITLE_INSIDE:
                 indicatorInside.setVisibility(visibility);
                 setTitleStyleUI();
+            case BannerConfig.ONLY_TITLE:
+                indicator.setVisibility(View.GONE);
+                setTitleStyleUI();
                 break;
         }
     }
