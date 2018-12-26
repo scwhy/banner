@@ -608,6 +608,9 @@ public class Banner extends FrameLayout implements OnPageChangeListener {
             case BannerConfig.CIRCLE_INDICATOR_TITLE_INSIDE:
                 bannerTitle.setText(titles.get(position - 1));
                 break;
+            case BannerConfig.ONLY_TITLE:
+                bannerTitle.setText(titles.get(position - 1));
+                break;
         }
 
     }
